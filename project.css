@@ -1,0 +1,643 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+
+.header{
+
+    margin: 8px;
+}
+ 
+.Group{
+
+    color: gray;
+    font-size: 30px;
+    
+    
+    
+    
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container .nav-ul{
+
+    display: flex;
+    align-items: center;
+    
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-right: 45px;
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.about-us{
+    color: lightseagreen;
+    transition: 1s;
+}
+
+
+.about-us:hover{
+
+    color: lightseagreen ;
+    transition: 2s;
+}
+
+.Carreer{
+
+    color: rgb(210, 210,210);
+
+}
+
+
+.Carreer:hover{
+    color: #00ccb1;
+    transition: 2s;
+}
+
+
+
+.Departements{
+
+    color: rgb(210, 210,210);
+
+}
+
+.img{
+    width: 200px;
+    margin:6px 4px;
+
+}
+
+
+.sous-titre{
+
+    color: lightseagreen;
+    text-align: center;
+    font-size: 40px;
+    font-family: Roboto;
+    
+    
+}
+
+.Departements:hover{
+
+    color: #00ccb1;
+    transition: 2s;
+}
+.img2 {
+    display: block;
+    width: 5%;
+    margin: auto;
+  }
+  .first-container{
+
+    display: flex;
+    width: 60%;
+    margin: auto;
+    
+    
+  }
+
+  .row-1{
+
+    margin: 50px 20px;
+    color: rgb(172, 161, 161);
+  }
+  .row-2{
+    margin: 50px 10px;
+    color: rgb(172, 160, 161);
+  }
+
+  .second-container{
+
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    gap: 17px;
+
+  }
+  .box-1{
+    width: 331.63px;
+    height: 365px;
+    background: lightseagreen;
+    border-radius: 0.5rem;
+    font-family: Roboto;
+    
+    
+
+
+    
+
+}
+
+.box-2{
+
+    width: 331.63px;
+    height: 365px;
+    background: #3D83DF;
+    border-radius: 0.5rem;
+    font-family: Roboto;
+    
+    
+    
+    
+
+
+}
+
+.box-3{
+
+    width: 331.63px;
+    height: 365px;
+    background: #1b2347;
+    border-radius: 0.5rem;
+    font-family: Roboto;
+    
+    
+
+    
+}
+
+.doctor-information,.clinic-information,.patient-information{
+    color: #fff;
+    margin: 7px 8px;
+    padding: 7px 15px;
+    font-family: work sans;
+    font-size: 24px;
+
+    
+
+}
+
+.clinic-title,.doctor-title,.patient-title{
+
+    margin: 7px 10px;
+    padding: 8px 15px;
+    font-family: work sans;
+    font-size: 26px;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.doctor-image,.clinic-image,.patient-image{
+
+    margin: 7px 9px;
+    padding: 8px 15px;
+}
+
+.third-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin: 35px 135px 60px;
+    padding: 0px 30px;
+
+}
+
+.global-company{
+    font-family: work sans ;
+    font-size: 28px;
+    color: #00ccb1;
+    font-weight: bold;
+    padding: 0px 24px 0px 0px;
+    
+    
+}
+
+.select-option-patient{
+
+    color: #ffff;
+    background: lightseagreen;
+    border:1px  #00ccb1;
+    text-decoration: underline;
+    
+}
+
+.select-option-doctor{
+
+    color: #ffff;
+    background: #3D83DF;
+    border: 1px  #3D83DF;
+    text-decoration: underline;
+
+
+}
+
+.select-option-clinic{
+
+    
+    color: #ffff;
+    background: #1b2347;
+    border: 1px  #1b2347;
+    text-decoration: underline;
+
+    
+}
+
+.select-doctor,.select-patient,.select-clinic{
+
+    width: 80%;
+    height: 75px;
+    display: flex;
+    margin: 7px 35px;
+}
+
+.clinic-information{
+
+    margin-bottom: 40px;
+}
+
+.doctor-information{
+
+    margin-bottom: 40px;
+
+    
+}
+
+.select-clinic-2{
+
+    margin: 7px 35px;
+}
+
+
+
+
+.brands__logos{
+
+    width: 653.25 px;
+    height: 100 px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+
+}
+.link-1,.link-2,.link-3,.link-4,.link-5,.link-6,.link-7 ,.link-10{
+
+    width: 77px;
+}
+
+.link-8,.link-9{
+
+    width: 50px;
+}
+
+.section-four{
+
+    width: 100%;
+    margin: auto;
+    display: block;
+    background: #E1F9F7; 
+     height: 98vh;
+    
+}
+
+
+.fourth-container{
+
+    
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    width: 80%;
+    
+    
+
+}
+
+.fourth-container-div{
+
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+
+}
+
+.fourth-container-div1{
+
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px 0px 0px;
+    
+    
+}
+
+.div-1{
+
+    width: 250px ;
+    height: 260px;
+    background:#fff;
+    /* margin:55px 0px 4px 0px; */
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 4px;
+    
+    
+    
+    
+}
+
+
+.div-2{
+
+    width: 250px ;
+    height: 260px;
+    background:#fff;
+    /* margin: 20px 0px 0px 25px; */
+   
+    
+
+}
+
+.fourth-container-div2{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.parag{
+
+    color:#747474 ;
+    font: 14px Roboto arial,sans-serif;
+    margin: 22.4px 0px;
+}
+
+
+
+.div-3{
+    width: 250px ;
+    height: 260px;
+    background:#fff;
+    /* margin: 55px 7px; */
+    margin-bottom: 25px;
+    
+}
+
+.div-4{
+
+    width: 250px ;
+    height: 260px;
+    background:#fff;
+    /* margin: 0px 0px 0px 25px ; */
+    text-align: center;
+    
+    
+
+}
+
+.div-1,.div-2,.div-3,.div-4{
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+}
+
+.fourth-container-title{
+
+    font-size:34px;
+    font-family: work sans ,arial, sans serif;
+    color: #00b39b;
+    padding: 20px;
+    margin: 8px ;
+    font-weight: bold;
+    
+}
+
+.englobe{
+
+    display: flex;
+    margin: 15px 0px 0px 0px;
+
+}
+
+.drapeau{
+
+    width: 25px;
+    display: block;
+    margin:13px auto;
+}
+
+.country{
+
+    font-size: 24px;
+    color: #00ccb1;
+    font-family: Roboto,arial sans-serif;
+    width: 85px;
+    margin: auto;
+}
+.country-parent{
+
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 0px 0px 0px 10px ;
+    
+    
+}
+
+.fontsninja-family-55{
+
+    color:#747474;
+
+}
+
+.carton{
+
+    width: 40px;
+    display: block;
+    margin:25px auto;
+    
+}
+
+.appointements{
+
+    color:#00ccb1;
+    padding: 8px;
+    margin-left: 55px ;
+    font-size: 24px;
+  
+
+}
+
+.appointements-paragraphe{
+
+    margin-left: 55px;
+    font-size: 13px;
+    color: #747474;
+
+}
+
+.img-patient{
+
+    width: 40px;
+    display: block;
+    margin:35px auto;
+
+}
+.patient{
+    color:#00ccb1;
+    padding: 8px;
+    margin-left: 55px ;
+    font-size: 24px;
+}
+
+
+.paraph-patient{
+
+    margin-left: 40px;
+    font-size: 13px;
+    color: #747474;
+}
+
+.im-4{
+
+    width: 40px;
+    display: block;
+    margin:35px auto;
+
+    
+}
+
+.im4-patient{
+
+    color:#00ccb1;
+    margin-left: 9px ;
+    font-size: 24px;
+}
+
+.trust-solutions{
+
+    font-size: 13px;
+    color: #747474;
+}
+
+.row{
+
+    width: 50%;
+}
+
+.about-skills{
+
+    width: 100%;
+    
+    
+}
+.skills{
+
+    margin: 95px auto ;
+    width: 35%;
+
+}
+
+.skills-h1{
+
+    color: #00b39b;
+    font:30px work sans,arial,sans serif;
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.skill-paragraph{
+
+    margin: 20px;
+    color: #747474;
+    font:14px Roboto arial ,sans serif bold;
+}
+
+    .im-four{
+
+        width: 450px;
+    }
+
+    .card-body{
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        width: 75%;
+        margin: auto;
+        }
+
+        .join{
+
+            margin: 85px auto;
+            width: 30%;
+            display: block;
+        }
+
+        .sounds{
+
+            font: 30px work sans bold;
+            
+            
+        }
+
+        .join a{
+
+            margin-left: 70px;
+            margin-top: 30px;
+        }
+        
+        .countries{
+
+            width: 77%;
+            display: block;
+            margin: auto;
+        }
+
+        .countries p{
+
+            font:14px Roboto bold;
+        }
+
+        .leadears{
+
+            color: #747474;
+        }
+
+       .copyright{
+
+                width: 24%;
+                display: block;
+                margin: auto;
+       }
